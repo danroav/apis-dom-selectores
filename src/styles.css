@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+a {
+  color: blue;
+}
+/*Selectotes de atributos*/
+a[href^="#"] {
+  background-color: gold;
+}
+a[href*="example"] {
+  background-color: silver;
+}
+a[href*="insensitive" i] {
+  color: cyan;
+}
+a[href$=".org"] {
+  color: red;
+}
+.mi_clase {
+  background: red;
+}
